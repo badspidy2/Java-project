@@ -12,6 +12,9 @@ public class SecurityController {
     @PostMapping("/adddet")
     public String addDetails(){
 
+        int a=12;
+        int b=12;
+
         return "Added Successfully";
 
     }
